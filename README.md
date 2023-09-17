@@ -5,3 +5,4 @@
 | 文章 |                            GitHub 連結                             |
 | :--: | :----------------------------------------------------------------: |
 | Day1 | 🔗 [Link](https://github.com/Jim876633/ithome-2023/tree/main/day1) |
+| Day2 | 🔗 [Link](https://github.com/Jim876633/ithome-2023/tree/main/day2) |
