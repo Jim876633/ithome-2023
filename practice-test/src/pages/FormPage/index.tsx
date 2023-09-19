@@ -25,8 +25,8 @@ export const FormPage = () => {
       <Formik
         initialValues={initialValues}
         validationSchema={Yup.object({
-          firstName: requiredSchema().max(15, "不可大於 15 字"),
-          lastName: requiredSchema().max(20, "不可大於 20 字"),
+          firstName: requiredSchema().max(5, "不可大於 5 個字"),
+          lastName: requiredSchema().max(10, "不可大於 10 個字"),
           twId: requiredSchema().concat(strAcctSchema()),
         })}
         onSubmit={handleSubmit}

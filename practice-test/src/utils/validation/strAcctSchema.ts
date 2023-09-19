@@ -5,7 +5,7 @@ export default () =>
     name: "twIdSchema",
     exclusive: true,
     params: {},
-    message: "身分證號格式不合",
+    message: "身分證字號格式錯誤",
     test: (value) => {
       if (value === undefined) return false;
       const letters = "ABCDEFGHJKLMNPQRSTUVXYWZIO";
