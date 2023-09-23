@@ -17,10 +17,10 @@
   <tbody>
     <tr>
       <td>表單驗證</td>
-      <td><a href="">Day8</a> </td>
-      <td><a href="">branch</a></td>
-      <td><a href="">Day9</a></td>
-      <td> <a href="">branch</a></td>
+      <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day8">Day8</a> </td>
+      <td><a href="https://github.com/Jim876633/ithome-2023/tree/manual-day8/practice-test">manual-day8</a></td>
+      <td><a href=""></a></td>
+      <td> <a href=""></a></td>
     </tr>
   </tbody>
 </table>
