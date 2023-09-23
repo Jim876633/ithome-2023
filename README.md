@@ -13,3 +13,4 @@
 | Day5 | 🔗 [Link](https://github.com/Jim876633/ithome-2023/tree/main/day5) |
 | Day6 | 🔗 [Link](https://github.com/Jim876633/ithome-2023/tree/main/day6) |
 | Day7 | 🔗 [Link](https://github.com/Jim876633/ithome-2023/tree/main/day7) |
+| Day8 | 🔗 [Link](https://github.com/Jim876633/ithome-2023/tree/main/day8) |
