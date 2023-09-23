@@ -19,8 +19,8 @@
       <td>表單驗證</td>
       <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day8">Day8</a> </td>
       <td><a href="https://github.com/Jim876633/ithome-2023/tree/manual-day8/practice-test">manual-day8</a></td>
-      <td><a href=""></a></td>
-      <td> <a href=""></a></td>
+      <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day9">Day9</a></td>
+      <td> <a href="https://github.com/Jim876633/ithome-2023/tree/copilot-chat-day9/practice-test">copilot-chat-day9</a></td>
     </tr>
   </tbody>
 </table>
