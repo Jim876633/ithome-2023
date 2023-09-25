@@ -254,6 +254,10 @@ npx jest --updateSnapshot
 
 快照測試乍看之下好像沒有什麼用處，很常 UI 畫面會有所變動，而且就算測試失敗也可以更新快照。所以快照測試比較像是一種提醒，跟你說：「欸，這邊好像有不一樣喔，你要不要檢查看看」的這種感覺，使用時機上也比較適合在 UI 大致確定的情況下做使用，才不會很常跑測試沒過。
 
+## Jest VS Code Extension
+
+這邊介紹一個好用的 VS Code Extension，[Jest Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner)，可以在 VS Code 中直接執行 Jest 測試，不用再去 Terminal 下指令。
+
 今天的部分就到這裡啦～下一篇來介紹 Jest 的進階用法，包含模擬時間、測試異步函式等等。
 
 ## 參考資料
