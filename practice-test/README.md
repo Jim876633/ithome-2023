@@ -26,8 +26,8 @@
       <td>路徑導頁</td>
       <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day10">Day10</a> </td>
       <td><a href="https://github.com/Jim876633/ithome-2023/tree/manual-day10/practice-test">manual-day10</a></td>
-      <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day11"></a></td>
-      <td> <a href="https://github.com/Jim876633/ithome-2023/tree/copilot-chat-day11/practice-test"></a></td>
+      <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day11">Day11</a></td>
+      <td> <a href="https://github.com/Jim876633/ithome-2023/tree/copilot-chat-day11/practice-test">copilot-chat-day11</a></td>
     </tr>
   </tbody>
 </table>
