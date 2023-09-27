@@ -8,7 +8,11 @@ export const Navbar = () => {
         Home
         <span style={{ margin: "0 .5rem" }}>|</span>
       </Link>
-      <Link to='/home/form'>Form</Link>
+      <Link to='/home/form'>
+        Form
+        <span style={{ margin: "0 .5rem" }}>|</span>
+      </Link>
+      <Link to='/home/modal'>Modal</Link>
     </ul>
   );
 };
