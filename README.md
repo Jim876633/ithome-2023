@@ -19,3 +19,4 @@
 | Day11 | 🔗 [Link](https://github.com/Jim876633/ithome-2023/tree/main/day11) |
 | Day12 | 🔗 [Link](https://github.com/Jim876633/ithome-2023/tree/main/day12) |
 | Day13 | 🔗 [Link](https://github.com/Jim876633/ithome-2023/tree/main/day13) |
+| Day14 | 🔗 [Link](https://github.com/Jim876633/ithome-2023/tree/main/day14) |
