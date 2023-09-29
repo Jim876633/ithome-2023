@@ -1,3 +1,4 @@
+import { ApiPage } from "@/pages/ApiPage";
 import { FormPage } from "@/pages/FormPage";
 import { HomePage } from "@/pages/HomePage";
 import { Home } from "@/pages/HomePage/Home";
@@ -21,6 +22,10 @@ export const routerConfig = [
       {
         path: "modal",
         element: <ModalPage />,
+      },
+      {
+        path: "api",
+        element: <ApiPage />,
       },
     ],
   },
