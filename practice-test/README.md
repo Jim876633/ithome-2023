@@ -33,8 +33,8 @@
       <td>路徑導頁</td>
       <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day12">Day12</a> </td>
       <td><a href="https://github.com/Jim876633/ithome-2023/tree/manual-day12/practice-test">manual-day12</a></td>
-      <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day11"></a></td>
-      <td> <a href="https://github.com/Jim876633/ithome-2023/tree/copilot-chat-day11/practice-test"></a></td>
+      <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day13">Day13</a></td>
+      <td> <a href="https://github.com/Jim876633/ithome-2023/tree/copilot-chat-day13/practice-test">copilot-chat-day13</a></td>
     </tr>
   </tbody>
 </table>
