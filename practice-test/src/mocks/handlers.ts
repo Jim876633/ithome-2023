@@ -13,7 +13,7 @@ const userArray = Array(10)
     email: faker.internet.email(),
   }));
 
-const fakerUserList = faker.helpers.arrayElements(userArray, {
+export const fakerUserList = faker.helpers.arrayElements(userArray, {
   min: 2,
   max: 10,
 });
