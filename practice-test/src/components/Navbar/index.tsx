@@ -16,7 +16,11 @@ export const Navbar = () => {
         Form
         <span style={{ margin: "0 .5rem" }}>|</span>
       </Link>
-      <Link to='/home/api'>Api</Link>
+      <Link to='/home/api'>
+        Api
+        <span style={{ margin: "0 .5rem" }}>|</span>
+      </Link>
+      <Link to='/home/todo'>Todo</Link>
     </ul>
   );
 };
