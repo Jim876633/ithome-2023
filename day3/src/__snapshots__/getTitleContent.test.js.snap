@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`testing getTitleContent function getTitleContent with 'Hello World'  1`] = `"<h1>Hello World</h1>"`;
