@@ -30,11 +30,25 @@
       <td> <a href="https://github.com/Jim876633/ithome-2023/tree/copilot-chat-day11/practice-test">copilot-chat-day11</a></td>
     </tr>
     <tr>
-      <td>路徑導頁</td>
+      <td>Modal 彈窗</td>
       <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day12">Day12</a> </td>
       <td><a href="https://github.com/Jim876633/ithome-2023/tree/manual-day12/practice-test">manual-day12</a></td>
       <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day13">Day13</a></td>
       <td> <a href="https://github.com/Jim876633/ithome-2023/tree/copilot-chat-day13/practice-test">copilot-chat-day13</a></td>
+    </tr>
+    <tr>
+      <td>API</td>
+      <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day14">Day14</a> </td>
+      <td><a href="https://github.com/Jim876633/ithome-2023/tree/manual-day14/practice-test">manual-day14</a></td>
+      <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day15">Day15</a></td>
+      <td> <a href="https://github.com/Jim876633/ithome-2023/tree/copilot-chat-day15/practice-test">copilot-chat-day15</a></td>
+    </tr>
+    <tr>
+      <td>路徑導頁</td>
+      <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day17">Day17</a> </td>
+      <td><a href="https://github.com/Jim876633/ithome-2023/tree/manual-day17/practice-test">manual-day17</a></td>
+      <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day18">Day18</a></td>
+      <td> <a href="https://github.com/Jim876633/ithome-2023/tree/copilot-chat-day18/practice-test">copilot-chat-day18</a></td>
     </tr>
   </tbody>
 </table>
