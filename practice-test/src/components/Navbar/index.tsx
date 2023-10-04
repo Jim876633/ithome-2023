@@ -20,7 +20,11 @@ export const Navbar = () => {
         Api
         <span style={{ margin: "0 .5rem" }}>|</span>
       </Link>
-      <Link to='/home/todo'>Todo</Link>
+      <Link to='/home/todo'>
+        Todo
+        <span style={{ margin: "0 .5rem" }}>|</span>
+      </Link>
+      <Link to='/home/itemList'>ItemList</Link>
     </ul>
   );
 };

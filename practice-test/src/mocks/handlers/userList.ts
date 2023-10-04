@@ -18,7 +18,7 @@ export const fakerUserList = faker.helpers.arrayElements(userArray, {
   max: 10,
 });
 
-export const handlers = [
+export default [
   rest.get(fetchUserUrl, (req, res, ctx) => {
     return res(ctx.status(200), ctx.json(fakerUserList));
   }),
