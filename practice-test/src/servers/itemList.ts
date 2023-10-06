@@ -5,7 +5,7 @@ import {
   fetchBaseQuery,
 } from "@reduxjs/toolkit/query/react";
 
-type ItemType = {
+export type ItemType = {
   title: string;
   id: number;
 };
