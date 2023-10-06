@@ -1,6 +1,6 @@
 import { rest } from "msw";
 import { faker } from "@faker-js/faker";
-let data = [
+export let data = [
   { title: "test1", id: 1 },
   { title: "test2", id: 2 },
   { title: "test3", id: 3 },
@@ -21,13 +21,15 @@ export default [
   rest.get("/itemList/list", (req, res, ctx) => {
     return res(ctx.status(200), ctx.json({ data }));
   }),
-  rest.post("/itemList/add", (req, res, ctx) => {
-    console.log(req);
-    data.push(req.body);
-    return res(ctx.status(200));
+  rest.post("/itemList/add", async (req, res, ctx) => {
+    const reqBody = await req.json();
+
+    data.push(reqBody);
+    return res(ctx.status(200), ctx.json({ data }));
   }),
-  rest.delete("/itemList/delete", (req, res, ctx) => {
-    data = data.filter((item) => item.id !== req.body.id);
-    return res(ctx.status(200));
+  rest.delete("/itemList/delete", async (req, res, ctx) => {
+    const reqBody = await req.json();
+    data = data.filter((item) => item.id !== reqBody.id);
+    return res(ctx.status(200), ctx.json({ data }));
   }),
 ];
