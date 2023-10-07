@@ -1,4 +1,4 @@
-# [Day 21] React + Jest Redux Toolkit Query 測試 (AI)
+# [Day 22] React + Jest Redux Toolkit Query 測試 (AI)
 
 因為 RTK Query 在結構上就比較複雜，在進行 copilot chat 測試的時候，會需要手動修改很多地方。
 
