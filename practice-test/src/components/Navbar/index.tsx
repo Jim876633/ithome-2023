@@ -13,7 +13,7 @@ export const Navbar = () => {
         <span style={{ margin: "0 .5rem" }}>|</span>
       </Link>
       <Link to='/home/modal'>
-        Form
+        Modal
         <span style={{ margin: "0 .5rem" }}>|</span>
       </Link>
       <Link to='/home/api'>
