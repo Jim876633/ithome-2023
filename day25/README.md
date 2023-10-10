@@ -1,0 +1,29 @@
+# [Day 25] React + Cypress 測試 (AI)
+
+上一篇介紹了 Cypress 的基本用法，跟一些實際的測試流程，這篇來試著用 Copilot chat 來幫我們寫測試吧！
+
+## ItemListPage
+
+> /tests use Cypress E2E testing
+
+![copilot chat](/img/day25-1.gif)
+
+來看一下測試碼的差別：
+
+![copilot chat](/img/day25-4.jpg)
+
+可以看到 Copilot chat 用了像是 `as()` 的方式來指定一個 alias，然後在後面的測試中就可以用這個 alias 來取得元素，學習到了！
+
+## FormPage
+
+> /tests use Cypress E2E testing
+
+![copilot chat](/img/day25-2.gif)
+
+一樣看一下測試碼的差別：
+
+![copilot chat](/img/day25-3.jpg)
+
+## 結論
+
+因為 Cypress 有 **E2E testing** 以及 **Component Testing** 兩種測試種類，所以需要指定 Copilot chat 使用 E2E testing 不然他預設都會是使用 Component Testing。然後在測試的過程中有發現 Copilot chat 產 Cypress 會寫的比較籠統，一些細節的測試部分比起 Unit Test 來說少很多，不過好像其實有做 Unit Test 的話，的確 E2E testing 就不需要測試那麼細了，所以在這個部分 Copilot chat 產出的測試碼還是可以接受的！
