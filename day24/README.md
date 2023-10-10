@@ -1,4 +1,4 @@
-# [Day 24] React + cypress 測試
+# [Day 24] React + Cypress 測試
 
 這一篇來把之前寫的程式碼挑選 itemListPage 跟 formPage 來使用 Cypress 寫測試，並且順便介紹一些基本的語法。
 
