@@ -13,10 +13,18 @@ export const Navbar = () => {
         <span style={{ margin: "0 .5rem" }}>|</span>
       </Link>
       <Link to='/home/modal'>
-        Form
+        Modal
         <span style={{ margin: "0 .5rem" }}>|</span>
       </Link>
-      <Link to='/home/api'>Api</Link>
+      <Link to='/home/api'>
+        Api
+        <span style={{ margin: "0 .5rem" }}>|</span>
+      </Link>
+      <Link to='/home/todo'>
+        Todo
+        <span style={{ margin: "0 .5rem" }}>|</span>
+      </Link>
+      <Link to='/home/itemList'>ItemList</Link>
     </ul>
   );
 };
