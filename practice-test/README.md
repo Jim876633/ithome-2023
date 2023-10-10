@@ -71,5 +71,10 @@
       <td><a href="https://github.com/Jim876633/ithome-2023/tree/main/day25">Day25</a></td>
       <td> <a href="https://github.com/Jim876633/ithome-2023/tree/copilot-chat-day25/practice-test">copilot-chat-day25</a></td>
     </tr>
+    <tr >
+      <td>合併分支</td>
+      <td colspan=2><a href="https://github.com/Jim876633/ithome-2023/tree/practice-test-manual/practice-test">practice-test-manual</a></td>
+      <td colspan=2> <a href="https://github.com/Jim876633/ithome-2023/tree/practice-test-copilot-chat/practice-test">practice-test-copilot-chat</a></td>
+    </tr>
   </tbody>
 </table>
