@@ -6,7 +6,7 @@
 
 | 項目                     |                             手寫測試                              |                           Copilot Chat                            |
 | :----------------------- | :---------------------------------------------------------------: | :---------------------------------------------------------------: |
-| 表單驗證                 | [Day8](https://github.com/Jim876633/ithome-2023/tree/main/day08)  | [Day9](https://github.com/Jim876633/ithome-2023/tree/main/day09)  |
+| 表單驗證                 | [Day08](https://github.com/Jim876633/ithome-2023/tree/main/day08) | [Day09](https://github.com/Jim876633/ithome-2023/tree/main/day09) |
 | 路徑導頁                 | [Day10](https://github.com/Jim876633/ithome-2023/tree/main/day10) | [Day11](https://github.com/Jim876633/ithome-2023/tree/main/day11) |
 | Modal 彈窗               | [Day12](https://github.com/Jim876633/ithome-2023/tree/main/day12) | [Day13](https://github.com/Jim876633/ithome-2023/tree/main/day8)  |
 | API                      | [Day14](https://github.com/Jim876633/ithome-2023/tree/main/day14) | [Day15](https://github.com/Jim876633/ithome-2023/tree/main/day15) |
