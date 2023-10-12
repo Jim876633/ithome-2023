@@ -2,13 +2,13 @@ import { render, screen } from "@testing-library/react";
 import { RouterProvider, createMemoryRouter } from "react-router-dom";
 import { routerConfig } from ".";
 
-jest.mock("@/pages/HomePage/Home/index.tsx", () => {
+vi.mock("@/pages/HomePage/Home/index.tsx", () => {
   return {
     Home: () => <div>home page</div>,
   };
 });
 
-jest.mock("@/pages/FormPage/index.tsx", () => {
+vi.mock("@/pages/FormPage/index.tsx", () => {
   return {
     FormPage: () => <div>form Page</div>,
   };

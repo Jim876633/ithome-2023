@@ -6,10 +6,10 @@ import { ModalContext } from "@/context/ModalContext";
 
 describe("modalPage testing", () => {
   const user = userEvent.setup();
-  const openModal = jest.fn();
+  const openModal = vi.fn();
   const contextProps = {
     openModal,
-    closeModal: jest.fn(),
+    closeModal: vi.fn(),
     isOpen: false,
     content: "",
   };

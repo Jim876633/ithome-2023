@@ -5,9 +5,9 @@ import { ModalContext } from "@/context/ModalContext";
 
 describe("modal testing", () => {
   const user = userEvent.setup();
-  const closeModal = jest.fn();
+  const closeModal = vi.fn();
   const contextProps = {
-    openModal: jest.fn(),
+    openModal: vi.fn(),
     closeModal,
     isOpen: true,
     content: "test content",

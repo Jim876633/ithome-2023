@@ -1,10 +1,11 @@
-import "@testing-library/jest-dom";
+import "@testing-library/jest-dom/vitest";
+import createFetchMock from "vitest-fetch-mock";
 import { server } from "@/mocks/server";
 
-import { enableFetchMocks } from "jest-fetch-mock";
-enableFetchMocks();
+const fetchMocker = createFetchMock(vi);
+fetchMocker.enableMocks();
 
-window.alert = jest.fn();
+window.alert = vi.fn();
 
 beforeAll(() => server.listen());
 afterEach(() => server.resetHandlers());

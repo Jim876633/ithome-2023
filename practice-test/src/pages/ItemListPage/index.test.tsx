@@ -7,34 +7,33 @@ import {
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { ItemListPage } from "./index";
+import { Mock } from "vitest";
 
-jest.mock("@/servers/itemList", () => ({
-  useGetListQuery: jest.fn(),
-  useAddItemMutation: jest.fn(),
-  useRemoveItemMutation: jest.fn(),
+vi.mock("@/servers/itemList", () => ({
+  useGetListQuery: vi.fn(),
+  useAddItemMutation: vi.fn(),
+  useRemoveItemMutation: vi.fn(),
 }));
 
 describe("ItemListPage testing", () => {
   const user = userEvent.setup();
   const mockListQueryData = data;
 
-  const mockAddItemMutation = jest.fn();
-  const mockRemoveItemMutation = jest.fn();
+  const mockAddItemMutation = vi.fn();
+  const mockRemoveItemMutation = vi.fn();
 
-  (useGetListQuery as jest.Mock).mockReturnValue({
+  (useGetListQuery as Mock).mockReturnValue({
     data: mockListQueryData,
     isLoading: false,
   });
-  (useAddItemMutation as jest.Mock).mockReturnValue([mockAddItemMutation]);
-  (useRemoveItemMutation as jest.Mock).mockReturnValue([
-    mockRemoveItemMutation,
-  ]);
+  (useAddItemMutation as Mock).mockReturnValue([mockAddItemMutation]);
+  (useRemoveItemMutation as Mock).mockReturnValue([mockRemoveItemMutation]);
   beforeEach(() => {
     render(<ItemListPage />);
   });
 
   afterEach(() => {
-    jest.clearAllMocks();
+    vi.clearAllMocks();
   });
 
   it("初始畫面顯示 mock data 所有正確的 title", async () => {

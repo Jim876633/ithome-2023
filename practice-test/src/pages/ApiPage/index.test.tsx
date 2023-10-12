@@ -2,13 +2,14 @@ import { render, screen } from "@testing-library/react";
 import { useFetchUserData } from "@/api/fetchData";
 import { ApiPage } from "./index";
 import { fakerUserList } from "@/mocks/handlers/userList";
+import { Mock } from "vitest";
 
-jest.mock("@/api/fetchData");
+vi.mock("@/api/fetchData");
 
 // API 測試
 describe("ApiPage", () => {
   it("當 isLoading 為 true 畫面顯示 'Loading...' 文字", () => {
-    (useFetchUserData as jest.Mock).mockReturnValue({
+    (useFetchUserData as Mock).mockReturnValue({
       isLoading: true,
       data: null,
     });
@@ -22,7 +23,7 @@ describe("ApiPage", () => {
       { id: 1, name: "John Doe", email: "john.doe@example.com" },
       { id: 2, name: "Jane Smith", email: "jane.smith@example.com" },
     ];
-    (useFetchUserData as jest.Mock).mockReturnValue({
+    (useFetchUserData as Mock).mockReturnValue({
       isLoading: false,
       data: mockData,
     });
@@ -39,7 +40,7 @@ describe("ApiPage", () => {
 describe("ApiPage", () => {
   it("當 isLoading 為 false 畫面顯示 data 資料", () => {
     const mockData = fakerUserList;
-    (useFetchUserData as jest.Mock).mockReturnValue({
+    (useFetchUserData as Mock).mockReturnValue({
       isLoading: false,
       data: mockData,
     });
